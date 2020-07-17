@@ -22,10 +22,7 @@ final class DatabaseManager {
         safeEmail = safeEmail.replacingOccurrences(of: "@", with: "-")
         return safeEmail
     }
-    //テスト
-    //    public func test() {
-    //        database.child("foo").setValue(["something": true])
-    //    }
+  
 }
 
 extension DatabaseManager {
